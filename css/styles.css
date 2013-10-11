@@ -4,4 +4,49 @@
 /* two Google fonts we'll use */
 @import url(https://fonts.googleapis.com/css?family=Cantora+One);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	padding: 20px;
+	background-image: url(../img/sandpaper.png);
+}
 
+header{
+	background-color: #907A46;
+	padding: 10px;
+	line-height: 60px;
+}
+
+h1{
+	font-family: 'Cantora One';
+	color: #EEEDEA;
+	font-size: 200%
+}
+
+.logo{
+	float: right;
+	opacity: .7;
+}
+
+.logo:hover{
+	opacity: 1;
+}
+
+article{
+	background-color: white;
+	width: 90%;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+figure{
+	display: inline-block;
+	padding: 10px;
+	background-color: white;
+}
+
+figcaption{
+	font-weight: 300;
+	text-align: center;
+	margin-top: 5px;
+}
